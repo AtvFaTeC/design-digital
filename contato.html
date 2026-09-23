@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Velvet</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <figure class="logo">
+            <img src="logo.png" alt="img" height="10%" width="35%">
+        </figure>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre nós!</a>
+        </nav>
+    </header>
+    <div class="barra_nav2"></div>
+
+    <main class="container mt-5 mb-5">
+        <div class="col-md-6 mx-auto bg-white p-5 shadow rounded">
+            <h2 class="text-center mb-4" style="color: #f14c80;">Fale Conosco</h2>
+            <form action="#">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary w-50"
+                        style="background-color: #f14c80; border: none;">Enviar</button>
+                    <button type="reset" class="btn btn-secondary w-50">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="w-100">
+            <div class="barra_footer"></div>
+            <div class="contato">
+                <div class="coluna1 p-3 d-flex flex-column align-items-center">
+                    <i class="fa-regular fa-envelope fa-2x mb-2"></i>
+                    <h2>E-mail</h2>
+                    <p class="mt-2">Tem Alguma Dúvida?</p>
+                    <h4 class="fs-6">contato.velvet@hotmail.com</h4>
+                </div>
+                <div class="coluna2 p-3 d-flex flex-column align-items-center">
+                    <i class="fa-solid fa-phone-flip fa-2x mb-2"></i>
+                    <h2>Telefone</h2>
+                    <p class="mt-2">Prefere Ligar?</p>
+                    <h4 class="fs-6">4002-8922</h4>
+                </div>
+                <div class="coluna3 p-3 d-flex flex-column align-items-center">
+                    <i class="fa-brands fa-whatsapp fa-2x mb-2"></i>
+                    <h2>WhatsApp</h2>
+                    <p class="mt-2">Orçamentos e Encomendas</p>
+                    <h4 class="fs-6">(00) 00000-0000</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
