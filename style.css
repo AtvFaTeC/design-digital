@@ -154,3 +154,45 @@ header {
 .logo {
     margin-top: 30px;
 }
+
+@media (max-width: 678px) {
+    header {
+        height: auto;
+        padding: 15px 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .logo img {
+        width: 120px !important;
+        height: auto !important;
+    }
+
+    #carouselExampleInterval{
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        gap: 15px;
+    }
+
+    .navigation a {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .fundo {
+        padding: 20px 10px;
+        margin: 20px 10px;
+    }
+
+    .contato {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
